@@ -1,0 +1,24 @@
+.copyright {
+    background-color: var(--darkgreen);
+    text-align: center;
+    min-height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+.footerText {
+    color: var(--white);
+    letter-spacing: 2px;
+    font-family: 'Eczar';
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+.footerText:hover {
+    color: var(--yellow);
+}

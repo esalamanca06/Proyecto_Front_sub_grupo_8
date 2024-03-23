@@ -1,0 +1,92 @@
+
+.containerServices {
+    width: 100%;
+    height: 100%;
+    padding: 5% 8%;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.containerServices h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    cursor: default;
+    color: var(--sky);
+}
+
+.containerServices h1::after {
+    content: '';
+    background: var(--sky2);
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+    border: 2px solid var(--sky2);
+}
+
+.service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--sky);
+}
+
+.service h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.service:hover {
+    background: rgba(0, 48, 108, 0.8);;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.service:hover i {
+    color: #fff;
+}
+
+
+.service p span{
+    color: var(--darkgreen);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .containerServices h1 {
+        margin-bottom: 20px;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .containerServices h1::after {
+        content: '';
+        width: 14%;
+        height: 5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

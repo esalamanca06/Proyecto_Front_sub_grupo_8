@@ -1,0 +1,29 @@
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background: var(--darkgreen);
+    background: linear-gradient(0deg, var(--darkgreen) 10%, var(--green) 50%, var(--darkgreen) 90%);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+.whatsapp:hover {
+    background: var(--darkgreen);
+    background: linear-gradient(0deg, var(--green) 10%, var(--darkgreen) 50%, var(--green) 90%);
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {}
