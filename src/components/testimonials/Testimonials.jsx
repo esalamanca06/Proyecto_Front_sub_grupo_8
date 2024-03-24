@@ -19,38 +19,26 @@ export const Testimonials = () => {
             interval={6100}>
             <div data-aos="fade-down" data-aos-delay="300">
               <div className="myCarousel">
-                <h3>Dayana Hidalgo</h3>
-                <p>Excelente servicio, atención oportuna de calidad ⭐️⭐️⭐️⭐️⭐️</p>
+                <h3>Michael Quiroga</h3>
+                <p>Gracias a las formaciones sobre automatización de procesos en nuestra entidad hemos aumentado la productividad ⭐⭐⭐⭐⭐</p>
               </div>
             </div>
             <div data-aos="fade-down" data-aos-delay="300">
               <div className="myCarousel">
-                <h3>Yessica Poveda</h3>
-                <p>Excelente servicio y maravillosos beneficios.</p>
+                <h3>Jefferson Pulido</h3>
+                <p>Mi equipo de trabajo optimizo mucho los tiempos de despliegues de los proyectos gracias a sus programas enfocados a JavaScript 💯</p>
               </div>
             </div>
             <div data-aos="fade-down" data-aos-delay="300">
               <div className="myCarousel">
-                <h3>Ingrid Sanchez</h3>
-                <p>Excelente servicio, oportuno y claro. super recomendado ⭐️⭐️⭐️⭐️⭐️</p>
+                <h3>Erick Salamanca</h3>
+                <p>Nuestro departamento de DEVOPS genero nuevas ideas para el levantamiento de infraestructura mucho mas optima y actualizada para las necesidades actuales y futuras del negocio 😁</p>
               </div>
             </div>
             <div data-aos="fade-down" data-aos-delay="300">
               <div className="myCarousel">
-                <h3>Hector Camacho</h3>
-                <p>Excelente servicio y efectividad, llegó recibiendo subsidio de arrendamiento desde hace varios meses 👌</p>
-              </div>
-            </div>
-            <div data-aos="fade-down" data-aos-delay="300">
-              <div className="myCarousel">
-                <h3>Karen Barbosa</h3>
-                <p>Excelente atención y cumplimiento, brindan muy buen asesoramiento. 💯 Recomendado ⭐⭐⭐⭐⭐</p>
-              </div>
-            </div>
-            <div data-aos="fade-down" data-aos-delay="300">
-              <div className="myCarousel">
-                <h3>Yessica Poveda</h3>
-                <p>Excelente servicio y maravillosos beneficios.</p>
+                <h3>David Perez</h3>
+                <p> Ahora tenemos una idea mucho más clara para poder levantar procesos vinculados a la IA y asi expandir nuestro portafolio de negocio</p>
               </div>
             </div>
           </Carousel>
