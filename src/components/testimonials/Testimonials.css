@@ -3,6 +3,8 @@
     height: 60vh;
     display: flex;
     justify-content: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--sky);
 }
 
 #box {
@@ -24,12 +26,13 @@
     font-weight: 600;
     position: relative;
     cursor: default;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 #box h1::after {
     content: '';
-    background: var(--darkgreen);
-    width: 20%;
+    background: var(--sky2);
+    width: 140%;
     height: 5px;
     position: absolute;
     bottom: -5px;
@@ -60,9 +63,9 @@
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 20px;
-    border: 2px solid var(--darkgreen);
+    border: 2px solid var(--sky2);
     height: 255px;
-    font-family: 'Eczar';
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .carousel .control-dots {
@@ -72,28 +75,28 @@
 }
 
 .myCarousel h3 {
-    color: var(--darkgreen);
+    color: var(--sky);
     font-weight: 100;
     letter-spacing: 0.2px;
     margin-bottom: 4px;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 17px;
-    font-family: 'Eczar';
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .myCarousel p {
     font-weight: 100 !important;
     line-height: 29px !important;
-    color: var(--colornegro);
+    color: var(--sky3);
     font-size: 15px;
-    font-family: 'Eczar';
+    font-family: "Segoe UI", Arial, sans-serif;
     max-height: 67px;
 }
 
 .myCarousel p:before {
     content: "“";
-    color: var(--darkgreen);
+    color: var(--sky2);
     font-size: 26px;
     font-family: monospace;
     font-weight: 100;
@@ -101,7 +104,7 @@
 
 .myCarousel p:after {
     content: "”";
-    color: var(--darkgreen);
+    color: var(--sky2);
     font-size: 26px;
     font-family: monospace;
     font-weight: 100;
@@ -110,12 +113,12 @@
 
 .carousel .control-dots .dot {
     box-shadow: none !important;
-    background: #454545 !important;
+    background: #76AAEC !important;
     outline: 0;
 }
 
 .carousel.carousel-slider .control-arrow {
-    background: var(--darkgreen) !important;
+    background: var(--sky) !important;
     height: 50px !important;
     position: absolute;
     top: 35% !important;
@@ -144,7 +147,7 @@
 
     .myCarousel {
         background: #ffffff;
-        border: 2px solid var(--darkgreen);
+        border: 2px solid var(--sky);
         font-family: 'Eczar';
         margin-top: 0%;
         width: 80%;
