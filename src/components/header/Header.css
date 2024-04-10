@@ -12,7 +12,7 @@ main {
     text-align: center;
     align-items: center;
     font-family: 'Eczar';
-    padding: 0rem 1rem;
+    padding: 6rem 1rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/info.webp');
     background-repeat: no-repeat;
     background-size: cover;
