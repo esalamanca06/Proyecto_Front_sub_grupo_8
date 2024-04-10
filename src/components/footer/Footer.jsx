@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import waves from '../../assets/svg/waves.svg'
 import logoWhite from '../../assets/images/logoWhite.webp'
+import logoBig from '../../assets/images/logoBig.webp'
 
 export const Footer = () => {
   return (
@@ -11,16 +12,14 @@ export const Footer = () => {
       {/* FOOTER */}
       <footer>
         <div className='containerInfoFooter'>
-          <p className='infoTitleFooter'>Nombre Asesor</p>
-          <p className='infoDescFooter'>Magda Alejandra Rodriguez Manrique</p>
-          <p className='infoTitleFooter'>Correo Electronico</p>
-          <p className='infoDescFooter'><a href="mailto:rodriguezmanriquealeja@gmail.com"><i class="fa-solid fa-hand-pointer"></i> rodriguezmanriquealeja@gmail.com</a></p>
-          <p className='infoTitleFooter'>Numero Celular</p>
-          <p className='infoDescFooter'><a href="tel:+573122684578"><i class="fa-solid fa-hand-pointer"></i> +57 312-268-4578</a></p>
+          <p className='infoTitleFooter'>Inicio</p>
+          <p className='infoDescFooter'>Testimonios</p>
+          <p className='infoTitleFooter'>Servicios</p>
+          <p className='infoTitleFooter'>Contactos</p>
         </div>
         <div className="containerLogo">
           <a href="#">
-            <img src={logoWhite} alt=""/>
+            <img src={logoBig} alt=""/>
           </a>
         </div>
         <div className="containerSocialNetwork">
