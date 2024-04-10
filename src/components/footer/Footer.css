@@ -23,7 +23,7 @@ footer {
 }
 
 .containerSocialNetwork i {
-    color: var(--white);
+    color: var(--sky);
     font-size: 3rem;
     transition: .2s ease-in-out;
 }
@@ -89,6 +89,7 @@ footer {
 
     .containerLogo img {
         width: 50%;
+        
     }
 
     .containerSocialNetwork i {

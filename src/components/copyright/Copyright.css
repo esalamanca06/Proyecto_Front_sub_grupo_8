@@ -1,5 +1,5 @@
 .copyright {
-    background-color: var(--darkgreen);
+    background-color: var(--sky);
     text-align: center;
     min-height: 5vh;
     align-items: center;
@@ -14,11 +14,11 @@
 .footerText {
     color: var(--white);
     letter-spacing: 2px;
-    font-family: 'Eczar';
+    font-family: "Segoe UI", Arial, sans-serif;
     text-decoration: none;
     transition: .2s ease-in-out;
 }
 
 .footerText:hover {
-    color: var(--yellow);
+    color: var(--sky2);
 }

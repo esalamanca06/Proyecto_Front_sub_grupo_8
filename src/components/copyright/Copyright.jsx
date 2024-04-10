@@ -18,9 +18,7 @@ export const Copyright = () => {
         <>
             {/* COPYRIGHT */}
             <div className="copyright">
-                <a href="https://jeffersonpulido.netlify.app" target="_blank">
-                    <p className="footerText"><span id="year">{dateFooter}</span> Copyright &#169; JPulido Dev</p>
-                </a>
+                    <p className="footerText"><span id="year">{dateFooter}</span> Todos los derechos reservados &#169;  2024 Copyright </p>
             </div>
         </>
     )
