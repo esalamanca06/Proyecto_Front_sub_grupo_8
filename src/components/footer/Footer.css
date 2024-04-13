@@ -1,13 +1,13 @@
 
 footer {
-    /* background-color: var(--white); */
+    background-color: var(--sky);
     display: grid;
     justify-content: center;
     text-align: center;
     align-items: center;
     grid-template-columns: repeat(3, 33%);
     min-height: 12em;
-    margin-top: -3rem;
+    margin-top: -1rem;
 }
 
 .containerLogo img {
@@ -23,13 +23,13 @@ footer {
 }
 
 .containerSocialNetwork i {
-    color: var(--sky);
+    color: var(--white);
     font-size: 3rem;
     transition: .2s ease-in-out;
 }
 
 .containerSocialNetwork i:hover {
-    color: var(--letter);
+    color: var(--sky2);
     font-size: 3rem;
     transition: .2s ease-in-out;
 }
@@ -43,37 +43,28 @@ footer {
 }
 
 .containerInfoFooter p {
-    letter-spacing: 1px;
-    font-size: 17px;
-    color: var(--sky);
-    padding-bottom: 5px;
-    padding-top: 30px;
-}
-
-.containerInfoFooter p + p {
     border-top: 2px solid var(--sky2);
     padding-top: 5px;
     margin-top: 2px;
-}
-
-.infoTitleFooter{
     color: var(--white);
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-bottom: 5px;
 }
 
 .infoDescFooter{
-    text-decoration: none;
-    color: var(--yellow);
     font-weight: 500;
+    cursor: pointer;
 }
 
-.infoDescFooter a{
-    color: var(--yellow);
+
+.infoDescFooter a {
+    color: var(--white);
     text-decoration: none;
 }
 
-.infoDescFooter a:hover{
-    color: var(--letter);
+.infoDescFooter a:hover {
+    color: var(--sky2);
     text-decoration: none;
 }
 
@@ -82,14 +73,18 @@ footer {
     footer {
         grid-template-columns: none;
         grid-template-rows: repeat(3, 30%);
-        margin-top: -1rem;
         min-height: 30em;
         padding: 5% 0%;
+        gap: 1rem;
     }
 
     .containerLogo img {
         width: 50%;
         
+    }
+
+    .containerInfoFooter{
+        margin-left: 0;
     }
 
     .containerSocialNetwork i {
@@ -101,12 +96,5 @@ footer {
     }
     .containerLogo {
         align-self: end;
-    }
-}
-
-/* TABLET */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-    footer {
-        margin-top: -2rem;
     }
 }

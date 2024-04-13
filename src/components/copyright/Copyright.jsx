@@ -18,7 +18,7 @@ export const Copyright = () => {
         <>
             {/* COPYRIGHT */}
             <div className="copyright">
-                    <p className="footerText"><span id="year">{dateFooter}</span> Todos los derechos reservados &#169;  2024 Copyright </p>
+                    <p className="footerText"><span id="year">{dateFooter}</span> Todos los derechos reservados &#169; Copyright </p>
             </div>
         </>
     )

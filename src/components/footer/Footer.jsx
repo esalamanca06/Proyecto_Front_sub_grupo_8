@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import waves from '../../assets/svg/waves.svg'
 import logoWhite from '../../assets/images/logoWhite.webp'
-import logoBig from '../../assets/images/logoBig.webp'
 
 export const Footer = () => {
   return (
@@ -12,14 +11,14 @@ export const Footer = () => {
       {/* FOOTER */}
       <footer>
         <div className='containerInfoFooter'>
-          <p className='infoTitleFooter'>Inicio</p>
-          <p className='infoDescFooter'>Testimonios</p>
-          <p className='infoTitleFooter'>Servicios</p>
-          <p className='infoTitleFooter'>Contactos</p>
+          <p className='infoDescFooter'><a href="#">Inicio</a></p>
+          <p className='infoDescFooter'><a href="#testimonials">Testimonios</a></p>
+          <p className='infoDescFooter'><a href="#services">Servicios</a></p>
+          <p className='infoDescFooter'><a href="">Contactos</a></p>
         </div>
         <div className="containerLogo">
           <a href="#">
-            <img src={logoBig} alt=""/>
+            <img src={logoWhite} alt=""/>
           </a>
         </div>
         <div className="containerSocialNetwork">

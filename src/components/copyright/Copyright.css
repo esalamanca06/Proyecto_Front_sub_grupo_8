@@ -1,24 +1,24 @@
 .copyright {
-    background-color: var(--sky);
-    text-align: center;
-    min-height: 5vh;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  background-color: var(--sky3);
+  text-align: center;
+  min-height: 5vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .copyright a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footerText {
-    color: var(--white);
-    letter-spacing: 2px;
-    font-family: "Segoe UI", Arial, sans-serif;
-    text-decoration: none;
-    transition: .2s ease-in-out;
+  color: var(--white);
+  letter-spacing: 2px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
 }
 
 .footerText:hover {
-    color: var(--sky2);
+  color: var(--sky2);
 }
