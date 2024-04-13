@@ -8,7 +8,6 @@ export const AppRouter = () => {
     <>
       <Routes>
         <Route path='/' element={<Landing />} />
-        <Route path="/more" element={<More/>}/>
       </Routes>
     </>
   )
