@@ -23,6 +23,7 @@ export const Navbar = () => {
             <a href="https://www.facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
             <a href="https://wa.me/+0000000000/" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
+            <a href="/login"><i className="fa-solid fa-user"></i></a>
           </div>
           {/* BTN NAVBAR HAMBURGUER */}
           <div className="nav-btn">

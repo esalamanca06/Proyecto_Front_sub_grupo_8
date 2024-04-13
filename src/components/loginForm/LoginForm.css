@@ -1,0 +1,82 @@
+.contentLoginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem 0rem 0rem;
+  align-items: center;
+}
+
+.titleForm {
+  display: flex;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--sky);
+  justify-content: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--sky2);
+  width: fit-content;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: column;
+  font-family: "Segoe UI", Arial, sans-serif;
+  gap: 2rem;
+}
+
+.contentInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form label {
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--sky);
+  margin-bottom: 0.5rem;
+}
+
+.form input {
+  padding: 1rem;
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid var(--sky2);
+  border-radius: 0.4rem;
+  background-color: rgb(231, 230, 230);
+}
+
+.form button {
+  background-color: var(--sky);
+  color: var(--white);
+  width: 10rem;
+  height: 1.8rem;
+  border: none;
+  margin: 1rem;
+  transition: ease-in-out;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+.form button:hover {
+  background-color: var(--sky2);
+  color: var(--sky);
+  transition: ease-in-out;
+  width: 10rem;
+  height: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.form a {
+  color: var(--sky);
+  text-decoration: none;
+  cursor: pointer;
+}
