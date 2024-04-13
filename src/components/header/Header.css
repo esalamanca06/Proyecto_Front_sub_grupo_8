@@ -335,7 +335,7 @@ p.infoDesc {
         grid-template-columns: none;
         /* grid-template-rows: 1fr; */
         margin-top: 8%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/infoTel.webp');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/info.webp');
         background-repeat: no-repeat;
         background-size: cover;
     }
